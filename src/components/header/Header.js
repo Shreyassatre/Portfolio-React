@@ -54,7 +54,7 @@ const Header = () => {
                     </ul>
                 </div>
 
-                <img src="profile_logo.jpg" alt="" className="nav__img"/>
+                <img src="images/profile_logo.jpg" alt="" className="nav__img"/>
             </nav>
         </header>
   )

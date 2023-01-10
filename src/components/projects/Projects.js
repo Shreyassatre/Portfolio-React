@@ -25,10 +25,13 @@ const Projects = () => {
                         <img className='projects__img' src="images/covid-19-project.png" alt="" />
                             <div className="projects__info">
                                 <div className="projects__name">Covid-19 App</div>
-                                <small>Small Discrption about project that will make understand project complytly</small><br /><br />
+                                <small>
+                                    - A Covid-19 app tracks & shows the daily statistics about covid-19 cases according to countries & Latest updates. <br />
+                                    - Checks the health condition (Symptoms of Covid-19, mantal and physical health) of user with help of quiz. <br />
+                                    - Also created payment gateway to make donations & Admin panel.</small><br /><br />
                                 <div className="projects__buttons">
-                                    <a href="" className="demo__button1">GitHub</a>
-                                    <a href="" className="demo__button2">Live Demo</a>
+                                    <a href="https://github.com/Shreyassatre/MERN-Covid19-webapp" className="demo__button1">GitHub</a>
+                                    <a href="https://covid-19-tracker-fe157.web.app/" className="demo__button2">Live Demo</a>
                                 </div>
                             </div>
 
@@ -38,10 +41,13 @@ const Projects = () => {
                         <img className='projects__img' src="images/form-validation-project.png" alt="" />
                             <div className="projects__info">
                                 <div className="projects__name">Gmail Form Validation</div>
-                                <small>Small Discrption about project that will make understand project complytly</small><br /><br />
+                                <small>
+                                    - Tired to mimic the behaviour of Gmail's registration & login form validation using JS regular expressions. <br />
+                                    - Used HTML,CSS and BootStrap to create UI of login form and home page of google. <br />
+                                    - Used SweetAlert API & Font-Awesome Icons.</small><br /><br />
                                 <div className="projects__buttons">
-                                    <a href="" className="demo__button1">GitHub</a>
-                                    <a href="" className="demo__button2">Live Demo</a>
+                                    <a href="https://github.com/Shreyassatre/Gmail-Form-Validation-Demo" className="demo__button1">GitHub</a>
+                                    <a href="https://shreyassatre.github.io/Gmail-Form-Validation-Demo/" className="demo__button2">Live Demo</a>
                                 </div>
                             </div>
 
@@ -51,10 +57,13 @@ const Projects = () => {
                         <img className='projects__img' src="images/internship-project.png" alt="" />
                             <div className="projects__info">
                                 <div className="projects__name">Chat Bot</div>
-                                <small>Small Discrption about project that will make understand project complytly</small><br /><br />
+                                <small>
+                                    - Created a responsive chat bot for company to clearify doubts of newly admitted interns. <br />
+                                    - Used speech API in JS to convert text to speech. <br />
+                                    - Dveloped a responsive web UI using BootStrap.</small><br /><br />
                                 <div className="projects__buttons">
-                                    <a href="" className="demo__button1">GitHub</a>
-                                    <a href="" className="demo__button2">Live Demo</a>
+                                    <a href="https://github.com/Shreyassatre/chat-bot" className="demo__button1">GitHub</a>
+                                    <a href="https://shreyassatre.github.io/chat-bot/" className="demo__button2">Live Demo</a>
                                 </div>
                             </div>
 
@@ -68,7 +77,10 @@ const Projects = () => {
                         <img className='projects__img' src="images/facebook-analysis-project.png" alt="" />
                         <div className="projects__info">
                             <div className="projects__name">Facebook Data Analysis using Hive</div>
-                            <small>Small Discrption about project that will make understand project complytly</small><br /><br />
+                            <small>
+                                - Analyzed Facebook's user data (99,004 records) using Hive. <br />
+                                - Understood the concept of how HiveQL queries coverted & runs as MapReduce. <br />
+                                - Learned to work on Hortonworks distribution</small><br /><br />
                         </div>
                     </div>
                 </div>
@@ -80,10 +92,14 @@ const Projects = () => {
                         <img className='projects__img' src="images/titanic-analysis-project.png" alt="" />
                         <div className="projects__info">
                             <div className="projects__name">Exploratory Data Analysis on Titanic Dataset</div>
-                            <small>Small Discrption about project that will make understand project complytly</small><br /><br />
+                            <small>
+                                - Explored/Analyzed Titanic Dataset. <br />
+                                - Used libraries like numpy, pandas, matplotlib, seaborn. <br />
+                                - Cleaned Data using various methods.
+                            </small><br /><br />
                             <div className="projects__buttons">
-                                <a href="" className="demo__button1">GitHub</a>
-                                <a href="" className="demo__button2">Live Demo</a>
+                                <a href="https://github.com/Shreyassatre/Statistics_for_AI-DS/blob/main/Exploratory_data_Analysis(Titanic_dataset).ipynb" className="demo__button1">GitHub</a>
+                                <a href="https://colab.research.google.com/drive/10BfIsmWc589Jwc04IPzoSTfpaAVR7MLJ" className="demo__button2">Live Demo</a>
                             </div>
                         </div>
                     </div>
