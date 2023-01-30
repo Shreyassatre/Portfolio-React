@@ -22,9 +22,9 @@ const Certifications = () => {
                             <div className="certifications__logo">
                                 <img src="images/simplilearn-logo.png" alt="" />
                             </div>
-                            {/* <div className="certifications__buttons">
-                                <a href="https://learn.365datascience.com/certificates/CC-EF6D5D9C2C/" target='_blank' className="demo__button">Verify</a>
-                            </div> */}
+                            <div className="certifications__buttons">
+                                <a href="https://simpli-web.app.link/e/Euu4r2mAGwb" target='_shreyas' className="demo__button">Verify</a>
+                            </div>
                         </div>
 
                     </div>

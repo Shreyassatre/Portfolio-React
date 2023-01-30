@@ -63,17 +63,16 @@ const Data = () => {
               loop: true,
               delay: 40,
               strings:[
-                "Data Engineer.",
                 "Web developer.",
-                "Data Analyst.",
-                "Cloud Engineer."
+                "Data Engineer.",
+                "Data Analyst."
               ],
             }}
           />
         </h3>
-        <p className="home__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <p className="home__description">Technology is something that fascinates me with what it has and what it can do, it is something that drives me to learn more about it. More than anything else, I enjoy coding because I feel it keeps me the closest to technology I could possibly be.</p>
         <a download='' href={CV} className="button button--flex">
-            Downlaod Resume
+            Download Resume
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"

@@ -17,23 +17,77 @@ const Skills = () => {
                         All
                     </div>
                     <div className={toggleTab===1?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(1)}>
-                        Web
+                        Languages
                     </div>
                     <div className={toggleTab===2?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(2)}>
-                        Big Data
+                        Web
                     </div>
                     <div className={toggleTab===3?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(3)}>
+                        Big Data
+                    </div>
+                    {/* <div className={toggleTab===5?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(4)}>
                         Cloud
                     </div>
-                    <div className={toggleTab===4?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(4)}>
+                    <div className={toggleTab===6?"skills__button active__tab button--flex":"skills__button button--flex"} onClick={()=>setToggle(5)}>
                         Analystics
-                    </div>
+                    </div> */}
                 </div>
             </center>
 
             <div className="skills__sections">
-                <h5 className={toggleTab===0?"div__title":"div__title-inactive"}>Web Development :</h5>
+                <h5 className={toggleTab===0?"div__title":"div__title-inactive"}>Languages :</h5>
                 <div className={toggleTab===0 || toggleTab===1 ? 'skills__content container skills__content-active':'skills__content container'}>
+                    <div className="skills__data">
+                        <div className="skills__logo">
+                            <img className='skills__img' src="images/js-logo.png" alt="" />
+                        </div>
+                        <center>
+                            <small>Java Script</small>
+                        </center>
+                    </div>
+
+                    <div className="skills__data">
+                        <div className="skills__logo">
+                            <img className='skills__img' src="images/python-logo.png" alt="" />
+                        </div>
+                        <center>
+                            <small>Python</small>
+                        </center>
+                    </div>
+
+                    <div className="skills__data">
+                        <div className="skills__logo">
+                            <img className='skills__img' src="images/scala-logo.png" alt="" />
+                        </div>
+                        <center>
+                            <small>Scala</small>
+                        </center>
+                    </div>
+
+                    <div className="skills__data">
+                        <div className="skills__logo">
+                            <img className='skills__img' src="images/java-logo.png" alt="" />
+                        </div>
+                        <center>
+                            <small>Java</small>
+                        </center>
+                    </div>
+
+                    <div className="skills__data">
+                        <div className="skills__logo">
+                            <img className='skills__img' src="images/sql-logo.png" alt="" />
+                        </div>
+                        <center>
+                            <small>SQL</small>
+                        </center>
+                    </div>
+
+                </div>
+
+                <hr className={toggleTab===0?"":"div__line"} />
+
+                <h5 className={toggleTab===0?"div__title":"div__title-inactive"}>Web Development :</h5>
+                <div className={toggleTab===0 || toggleTab===2 ? 'skills__content container skills__content-active':'skills__content container'}>
                     <div className="skills__data">
                         <div className="skills__logo">
                             <img className='skills__img' src="images/html-logo.png" alt="" />
@@ -92,7 +146,7 @@ const Skills = () => {
                 <hr className={toggleTab===0?"":"div__line"} />
 
                 <h5 className={toggleTab===0?"div__title":"div__title-inactive"}>Big Data :</h5>
-                <div className={toggleTab===0 || toggleTab===2 ? 'skills__content container skills__content-active':'skills__content container'}>
+                <div className={toggleTab===0 || toggleTab===3 ? 'skills__content container skills__content-active':'skills__content container'}>
                     <div className="skills__data">
                         <div className="skills__logo">
                             <img className='skills__img' src="images/hadoop-logo.png" alt="" />
@@ -140,7 +194,7 @@ const Skills = () => {
 
                 </div>
 
-                <hr className={toggleTab===0?"":"div__line"} />
+                {/* <hr className={toggleTab===0?"":"div__line"} />
 
                 <h5 className={toggleTab===0?"div__title":"div__title-inactive"}>Cloud :</h5>
                 <div className={toggleTab===0 || toggleTab===3 ? 'skills__content container skills__content-active':'skills__content container'}>
@@ -204,7 +258,7 @@ const Skills = () => {
                         </center>
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </div>
     </section>
