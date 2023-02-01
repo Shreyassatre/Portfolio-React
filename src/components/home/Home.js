@@ -10,10 +10,15 @@ const Home = () => {
       <div class="home__container container grid">
         <div class="home__content grid">
           <Social/>
-          <div className="home__img"></div>
+          <div className="home__img__container">
+            <div className="home__img"></div>
+            <br />
+            <div className="shadow">
+              <center><hr /></center>
+            </div>
+          </div>
           <Data/>
         </div>
-
         <ScrollDown/>
       </div>
     </section>
