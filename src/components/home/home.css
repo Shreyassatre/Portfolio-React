@@ -73,22 +73,22 @@
 @keyframes profile__animate{
     0%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        transform: translate(1.7rem, 1.4rem);
+        transform: translate(1.7rem, 1.4rem) translateY(0);;
     }
 
     50%{
         border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-        transform: translate(1.3rem, 1.6rem);
+        transform: translate(1.3rem, 1.6rem) translateY(-30px);;
     }
 
     75%{
         border-radius: 40% 70% 80% 50%/60% 70% 60% 40%;
-        transform: translate(.6rem, 1.3rem);
+        transform: translate(.6rem, 1.3rem) translateY(-20px);;
     }
 
     100%{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        transform: translate(1.7rem, 1.4rem);
+        transform: translate(1.7rem, 1.4rem) translateY(-0);;
     }
 }
 
