@@ -36,6 +36,8 @@
     min-height: 16.5rem;
     justify-self: center;
     align-self: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .certifications__logo img{

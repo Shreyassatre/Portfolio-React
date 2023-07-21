@@ -70,7 +70,7 @@ const Data = () => {
             }}
           />
         </h3>
-        <p className="home__description">Technology is something that fascinates me with what it has and what it can do, it is something that drives me to learn more about it. More than anything else, I enjoy coding because I feel it keeps me the closest to technology I could possibly be.</p>
+        <p className="home__description">I am a highly motivated and dedicated individual with a strong educational background in computer engineering and AI and data science. My passion for technology and expertise in Big Data, Data Analytics, Web Development have driven me to improve and expand my skill set continuously.</p>
         <a download='' href={CV} className="button button--flex">
             Download Resume
             <svg
