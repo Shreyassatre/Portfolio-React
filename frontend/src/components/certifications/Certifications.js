@@ -21,14 +21,6 @@ const Certifications = () => {
       "certificateImage": "images/ml_with_python-cert.png"
     },
     {
-      "name": "Power BI",
-      "issued": "15 Nov 2022 by 365 Data Science",
-      "certID": "CC-2D5B33622E",
-      "logo": "images/365datascience-logo.png",
-      "verifyLink": "https://learn.365datascience.com/certificates/CC-EF6D5D9C2C/",
-      "certificateImage": "images/power_bi-cert.png"
-    },
-    {
       "name": "React(Basic)",
       "issued": "4 Nov 2022 by HackerRank",
       "certID": "700B6FAD776F",
